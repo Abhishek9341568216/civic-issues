@@ -1,0 +1,79 @@
+/* style.css */
+
+/* General page styling */
+body {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212529;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Heading */
+h2 {
+    font-weight: 700;
+    color: #fd0d3d; /* Bootstrap primary blue */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Sub-heading text */
+.lead {
+    color: #495057;
+    max-width: 600px;
+    margin: 10px auto 40px auto;
+}
+
+/* Buttons */
+.btn {
+    transition: all 0.3s ease-in-out;
+    border-radius: 30px; /* rounded pill buttons */
+    padding: 12px 30px;
+    font-weight: 600;
+}
+
+/* Hover effects */
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Special styles per button */
+.btn-primary {
+    background: #0d6efd;
+    border: none;
+}
+.btn-primary:hover {
+    background: #0b5ed7;
+}
+
+.btn-success {
+    background: #198754;
+    border: none;
+}
+.btn-success:hover {
+    background: #157347;
+}
+
+.btn-dark {
+    background: #212529;
+    border: none;
+}
+.btn-dark:hover {
+    background: #000;
+}
+
+.btn-info {
+    background: #0dcaf0;
+    border: none;
+    color: #fff;
+}
+.btn-info:hover {
+    background: #0bbce0;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
